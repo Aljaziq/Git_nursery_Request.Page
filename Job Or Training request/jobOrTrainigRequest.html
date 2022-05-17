@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon"type = "img/jpg" href="123.jpg">
+    
+<title>Job Or Trining Request</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="applicanRegistration.css" rel="stylesheet" type = "text/css"/>
+
+   
+<link href="navv.css" rel="stylesheet" type = "text/css"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body> 
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="Home.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="aboutUs.html"><i class="fa fa-users"></i> About us</a></li>
+            <li><a href="jobOrTrainigRequest.html"> <i class="fa fa-address-card-o"></i> Job / Training Request</a></li>
+            <li><a href="childRegistrationForm.html"><i class="fa fa-file-text"></i> Child Registeraion</a></li>
+            <li><a href="RegistrationFees.html"> <i class="fa fa-money"></i> Registeraion Fees</a></li>
+        </ul>
+    </nav>
+   
+        <img id="img" src="header.jpg">   
+<form action="applicantphpCode.php" method="post" ><i class="fa-solid fa-house-chimney-heart"></i> <b> 
+    <label> ID : </label>    </br>   
+<input type="text" name="applicantId" placeholder= "Enter Your ID"  required /> </br>   
+<label> First Name: </label>    </br>   
+<input type="text" name="firstName" placeholder= "Enter Your First Name"  required /> </br>  
+<label> Middle Name: </label>     </br>  
+<input type="text" name="middleName" placeholder="Enter Your Middle Name"  required /> </br>
+<label> Grandafther Name: </label>     </br>   
+<input type="text" name="grandfatherName" placeholder="Enter Your Grandfather Name" required />   </br>    
+<label> Last Name: </label>      </br>  
+<input type="text" name="lastName" placeholder="Enter Your Last Name" required />   </br> 
+<label for="email">Email:</label>    </br>  
+<input type="email" name="email" placeholder="Enter Your Email"  required>   </br> 
+<label> Phone:</label>    </br>    
+<input type="tel" name="phone" placeholder="Enter Your phone number" size="10" required>    </br>   
+<label> Choose your request:</label> </br>
+<input type="radio" value="Job request " name="requestType" required >Job request   
+<input type="radio" value="Training request" name="requestType" required> Training request </br> </br>
+<br /><input id="file"type="file" id="myFile" name="fileName" required>
+</br>
+</br><button type="submit" class="registerbtn" name="register"><b>Register</b></button>   </br>  
+</b></form>
+<div>
+   <footer> <img src="footer.jpg"> </footer>
+</div> 
+
+</body>
+</html>
